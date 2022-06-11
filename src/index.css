@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.awssld__content img {
+      object-fit: fill !important;
+}
+
+
+@media only screen and (max-width: 500px) {
+      .awssld--organic-arrows {
+            height: auto;
+      }
+}
+
+
+
+.awssld__bullets {
+      z-index: 50 !important;
+      bottom: 1rem !important;
+}
+
+.awssld__bullets button {
+      background: rgb(185, 28, 28) !important;
+}
+
+
+/* Scrollbar style */
+/* width */
+::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #8d8989; 
+      border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #8d8989; 
+    }
